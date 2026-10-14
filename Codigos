@@ -1,4 +1,4 @@
-## 1. Programas para ensamblaje (Nanopore)
+# 1. Programas para ensamblaje (Nanopore)
 # Se recomienda crear un ambiente nuevo dentro de conda, para cada programa instalado.
 
 # Ver calidad de datos con nanoplot
