@@ -1,1 +1,34 @@
+# 1. Programas para ensamblaje: Nanopore
+```r
+# Se recomienda crear un ambiente nuevo dentro de conda, para cada programa instalado.
 
+# Ver calidad de datos con nanoplot
+## Instalar Nanoplot
+conda install -c conda-forge -c bioconda nanoplot
+
+# Filtrado de datos con nanofilt
+## Insatalar Nanofilt
+conda install -c bioconda nanofilt
+
+# Ensamblaje de novo con flye
+## Insatalar Flye
+conda install -c bioconda flye
+
+# Polishing de datos con minimap2 y racon.
+## Instalar Minimap2
+conda install -c bioconda minimap2
+
+## Instalar Racon
+conda install -c bioconda racon
+
+# Requerimientos de MEDAKA (Pyabpoa, bcftools, samtools (v1.11), minimap2)
+## Instalación
+pip install pyabpoa
+sudo apt install bcftools
+conda install -c bioconda samtools==1.11
+
+# Anotación de secuencias consenso con medaka
+## Instalar medaka
+conda install -c conda-forge –c bioconda medaka
+
+```
