@@ -1,4 +1,5 @@
-# 1. Programas para ensamblaje (Nanopore)
+```r
+## 1. Programas para ensamblaje (Nanopore)
 # Se recomienda crear un ambiente nuevo dentro de conda, para cada programa instalado.
 
 # Ver calidad de datos con nanoplot
@@ -29,3 +30,4 @@ conda install -c bioconda samtools==1.11
 # Anotación de secuencias consenso con medaka
 ## Instalar medaka
 conda install -c conda-forge –c bioconda medaka
+```
