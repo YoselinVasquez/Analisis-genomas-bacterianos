@@ -27,7 +27,7 @@ pip install pyabpoa
 sudo apt install bcftools
 conda install -c bioconda samtools==1.11
 
-# Anotación de secuencias consenso con medaka
+# Pulido final de la secuancia con medaka
 ## Instalar medaka
 conda install -c conda-forge –c bioconda medaka
 
