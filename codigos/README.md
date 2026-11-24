@@ -32,7 +32,7 @@ conda install -c bioconda samtools==1.11
 conda install -c conda-forge –c bioconda medaka
 
 ```
-# 2. 
+# 2. Ensamblaje Nanopore
 ```r
 # Crear directorio "lecturas_nanopore".
 mkdir lecturas_nanopore ;
