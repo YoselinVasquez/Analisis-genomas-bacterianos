@@ -32,7 +32,12 @@ conda install -c bioconda samtools==1.11
 conda install -c conda-forge –c bioconda medaka
 
 ```
-# 2. Ensamblaje Nanopore
+# 2. Basecalling
+```r
+# 
+
+```
+# 3. Ensamblaje Nanopore
 ```r
 # Crear directorio "lecturas_nanopore".
 mkdir lecturas_nanopore ;
@@ -77,3 +82,4 @@ medaka_consensus -i SRR17110067.trim.fastq.gz -d SRR17110067.racon2.fasta -o med
 # Evaluar calidad del emsamblado: QUAST
 quast.py -o quast_SRR17110067 -m 0 medaka_SRR17110067/consensus.fasta
 quast.py -o quast_SRR17110070 -m 0 medaka_SRR17110070/consensus.fasta
+```
